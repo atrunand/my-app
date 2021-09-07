@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <h2>Products Details</h2>
 
 <div *ngIf ="products">
@@ -11,4 +10,6 @@
   <p>
     {{ products.description }}
   </p>
+
+  <button (click)="addToCart(products)">Buy</button>
 </div>
