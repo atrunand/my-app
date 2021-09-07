@@ -19,7 +19,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     /////เพิ่ม/////////
     TopBarComponent,
     ProductListComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
+    ProductDetailsComponent
     //////////////
   ],
   imports: [
