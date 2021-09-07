@@ -16,7 +16,7 @@ import { CartService } from "../cart.service";
 // })
 
 export class ProductDetailsComponent implements OnInit {
-  [x: string]: any; //เพื่อให้คุณสามารถimportไปที่อื่น
+ //เพื่อให้คุณสามารถimportไปที่อื่น
   products:any;
 
 
@@ -38,6 +38,5 @@ export class ProductDetailsComponent implements OnInit {
     // this.routes.paramMap.subscribe((products: any) => this.products = 'productId');
 
   }
-// ปัญหาตอนนี้คือ ไม่มีการแสดงผลข้อมูลใน Product Details
-}
 
+}
