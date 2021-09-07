@@ -10,3 +10,22 @@
   <span>{{ item.price | currency }}</span>
 
 </div>
+
+<form [formGroup] ="checkoutForm" (ngSubmit) ="onSubmit(checkoutForm.value)">
+
+  <!-- เมื่อมีการกดsubmit จะไปเรียกใช้function onSubmit() ใน cart.component.ts -->
+  <div>
+    <label for="name">
+      name
+    </label>
+    <input type="text" id="name" formControlName ="name">
+  </div>
+
+  <div>
+    <label for="address">
+      address
+    </label>
+    <input type="text" id="address" formControlName="address">
+  </div>
+  <button class="button" type="submit">Purchase</button>
+</form>
